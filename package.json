@@ -1,6 +1,9 @@
 {
-  "name": "react-component-library",
-  "version": "0.0.1",
+  "name": "@Pankajverma94502/react-component-library",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/Pankajverma94502"
+  },
+  "version": "0.0.2",
   "description": "React Component Library",
   "scripts": {
     "rollup": "rollup -c"
@@ -13,6 +16,7 @@
     "@babel/preset-env": "^7.16.4",
     "@babel/preset-react": "^7.16.0",
     "@babel/preset-typescript": "^7.16.0",
+    "@mui/material": "^5.2.4",
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^13.0.6",
     "@rollup/plugin-typescript": "^8.3.0",
