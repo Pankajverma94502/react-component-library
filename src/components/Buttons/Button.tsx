@@ -1,12 +1,12 @@
 // @ts-ignore
 import React from 'react'
-import {Button as MuiButton} from '@mui/material'
+import './Button.css'
 interface ButtonProps {
     label: string
 }
 
 const Button = (props: ButtonProps) => {
-    return <MuiButton>{props.label}</MuiButton>
+    return <button className={"primaryButton"}>{props.label}</button>
 }
 
 export default Button
